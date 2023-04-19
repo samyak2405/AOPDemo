@@ -11,8 +11,8 @@ public class Main {
         VehicleService vehicleService = context.getBean(VehicleService.class);
         System.out.println(vehicleService.getClass());
         Song song = new Song();
-        song.setSongname("Volume 1");
-        song.setSinger("Honey Singh");
+        song.setSongname("Ik Vaari");
+        song.setSinger("Arijit Singh");
         boolean vehicleStarted = true;
         String vehicleMusic = vehicleService.playMusic(vehicleStarted,song);
         String moveVehicle = vehicleService.moveVehicle(vehicleStarted);
