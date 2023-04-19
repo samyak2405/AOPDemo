@@ -25,14 +25,14 @@ public class VehicleService {
 //        Instant start = Instant.now();
 //        logger.info("Method Execution Starts");
 //        logger.info("Method execution ends");
-//        String status = "";
-//        if(VehicleStarted)
-//        {
-//            status = speakers.makeSound(song);
-//        }
-//        else {
-//            logger.log(Level.SEVERE,"Vehicle not Started yet");
-//        }
+       String status = "";
+       if(VehicleStarted)
+       {
+           status = speakers.makeSound(song);
+       }
+       else {
+           logger.log(Level.SEVERE,"Vehicle not Started yet");
+       }
 //        Instant end = Instant.now();
 //        long timeElapsed = Duration.between(start,end).toMillis();
 //        logger.info("Time it took for method to execute: "+timeElapsed+" ms");
@@ -45,14 +45,14 @@ public class VehicleService {
     {
 //        Instant start = Instant.now();
 //        logger.info("Method execution Starts");
-//        String status = "";
-//        if(VehicleStarted)
-//        {
-//            status = tyres.rotate();
-//        }
-//        else {
-//            logger.log(Level.SEVERE,"Vehicle not Started yet");
-//        }
+       String status = "";
+       if(VehicleStarted)
+       {
+           status = tyres.rotate();
+       }
+       else {
+           logger.log(Level.SEVERE,"Vehicle not Started yet");
+       }
 //        Instant end = Instant.now();
 //        logger.info("Method execution ends");
 //        long timeElapsed = Duration.between(start,end).toMillis();
@@ -65,14 +65,14 @@ public class VehicleService {
     {
 //        Instant start = Instant.now();
 //        logger.info("Method Execution starts");
-//        String status = "";
-//        if(VehicleStarted)
-//        {
-//            status = tyres.stop();
-//        }
-//        else {
-//            logger.log(Level.SEVERE,"Vehicle not Started Yet");
-//        }
+       String status = "";
+       if(VehicleStarted)
+       {
+           status = tyres.stop();
+       }
+       else {
+           logger.log(Level.SEVERE,"Vehicle not Started Yet");
+       }
 //        Instant end = Instant.now();
 //        logger.info("Method Execution ends");
 //        long timeElapsed = Duration.between(start,end).toMillis();
