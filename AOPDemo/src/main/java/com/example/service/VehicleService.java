@@ -36,8 +36,8 @@ public class VehicleService {
 //        Instant end = Instant.now();
 //        long timeElapsed = Duration.between(start,end).toMillis();
 //        logger.info("Time it took for method to execute: "+timeElapsed+" ms");
-        return tyres.rotate();
-//        return status;
+//         return tyres.rotate();
+       return status;
     }
 
 
@@ -57,8 +57,8 @@ public class VehicleService {
 //        logger.info("Method execution ends");
 //        long timeElapsed = Duration.between(start,end).toMillis();
 //        logger.info("Time it took for method to execute: "+timeElapsed+" ms");
-//        return status;
-        return tyres.rotate();
+       return status;
+//         return tyres.rotate();
     }
 
     public String applyBrake(boolean VehicleStarted)
@@ -77,8 +77,8 @@ public class VehicleService {
 //        logger.info("Method Execution ends");
 //        long timeElapsed = Duration.between(start,end).toMillis();
 //        logger.info("Time taken by method for execution: "+timeElapsed+" ms");
-//        return status;
-        return tyres.stop();
+       return status;
+//         return tyres.stop();
     }
     public Speakers getSpeakers() {
         return speakers;
